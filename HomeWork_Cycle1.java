@@ -4,10 +4,10 @@ import java.lang.Math;
 public class HomeWork_Cycle1 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        double x= scan.nextDouble();
+        double x= scan.nextDouble();//начало
         double y= scan.nextDouble();
-        double a= scan.nextDouble();
-        double b= scan.nextDouble();
+        double a= scan.nextDouble();//от чего идем
+        double b= scan.nextDouble();//ло чего идем
         while (x<a){
             if (x>=-9 && x<-6){
                 y= -(Math.pow(-(x*x)-12*x-27,0.5));
